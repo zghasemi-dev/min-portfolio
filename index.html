@@ -12,53 +12,643 @@
 
 <body>
 
-    <header>
-        <h1>Zeynab Ghasemi</h1>
-        <p>Student inom .NET och C#</p>
+    <header class="topbar">
 
-        <button id="themeButton">Byt tema</button>
+        <div class="logo">
+            Zeynab Ghasemi
+        </div>
+
+        <nav>
+            <a href="#home" data-sv="Hem" data-en="Home">Hem</a>
+            <a href="#about" data-sv="Om mig" data-en="About">Om mig</a>
+            <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
+            <a href="#projects" data-sv="Projekt" data-en="Projects">Projekt</a>
+            <a href="#skills" data-sv="Kompetens" data-en="Skills">Kompetens</a>
+            <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
+        </nav>
+
+        <div class="top-actions">
+
+            <div class="language-switcher">
+                <button class="language-button active" data-lang="sv">SV</button>
+                <span>/</span>
+                <button class="language-button" data-lang="en">EN</button>
+            </div>
+
+            <button id="themeButton">
+                <span data-sv="Ljust tema" data-en="Light mode">
+                    Ljust tema
+                </span>
+            </button>
+
+        </div>
+
     </header>
+
 
     <main>
 
-        <section>
-            <h2>Om mig</h2>
-            <p>
-                Jag studerar systemutveckling med fokus på .NET och C#.
-                Jag har redan börjat lära mig HTML, CSS, JavaScript, C# och GitHub.
-                Jag ser fram emot att utveckla mina kunskaper och lära mig mer under utbildningen.
-            </p>
+        <!-- HEM -->
+        <section class="hero full-section section-visible" id="home">
+
+            <div class="hero-text">
+
+                <p class="eyebrow"
+                   data-sv="WEBB • APP • SYSTEMUTVECKLING"
+                   data-en="WEB • APP • SOFTWARE DEVELOPMENT">
+                    WEBB • APP • SYSTEMUTVECKLING
+                </p>
+
+                <h1 class="hero-title"
+                    data-sv="Jag utvecklar digitala lösningar för idéer som vill växa."
+                    data-en="I develop digital solutions for ideas ready to grow.">
+                    Jag utvecklar digitala lösningar för idéer som vill växa.
+                </h1>
+
+                <p class="hero-quote"
+                   data-sv="Din idé kan bli verklighet."
+                   data-en="Your idea can become reality.">
+                    Din idé kan bli verklighet.
+                </p>
+
+                <p class="intro"
+                   data-sv="Jag skapar hemsidor, appar och digitala lösningar anpassade efter verksamhet, mål och användare."
+                   data-en="I create websites, apps and digital solutions tailored to businesses, goals and users.">
+                    Jag skapar hemsidor, appar och digitala lösningar anpassade efter verksamhet, mål och användare.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a class="action-button"
+                       href="#projects"
+                       data-sv="Se mina projekt"
+                       data-en="View my projects">
+                        Se mina projekt
+                    </a>
+
+                    <a class="action-button"
+                       href="https://github.com/zghasemi-dev"
+                       target="_blank"
+                       data-sv="Besök min GitHub"
+                       data-en="Visit my GitHub">
+                        Besök min GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="code-box">
+
+                    <span class="code-tag">
+                        &lt;portfolio&gt;
+                    </span>
+
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Mina kunskaper</h2>
-            <p>
-                HTML • CSS • JavaScript • C# • .NET • GitHub
-            </p>
+
+        <!-- KOMPETENS -->
+        <section class="skills-strip" id="skills">
+
+            <span>.NET</span>
+            <span>C#</span>
+            <span>SQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git & GitHub</span>
+
         </section>
 
-        <section>
-            <h2>Mina projekt</h2>
 
-            <h3>Test-CV</h3>
-            <p>
-                Mitt första portfolio-projekt byggt med HTML, CSS och JavaScript.
-                Projektet är publicerat med GitHub Pages.
-            </p>
+        <!-- OM MIG -->
+        <section class="about full-section" id="about">
+
+            <div class="section-heading reveal-left">
+
+                <p class="eyebrow"
+                   data-sv="OM MIG"
+                   data-en="ABOUT ME">
+                    OM MIG
+                </p>
+
+                <h2
+                    data-sv="Digitala lösningar för olika behov."
+                    data-en="Digital solutions for different needs.">
+                    Digitala lösningar för olika behov.
+                </h2>
+
+            </div>
+
+
+            <div class="about-slider">
+
+                <div class="about-slide active">
+
+                    <span class="slide-number">
+                        01
+                    </span>
+
+                    <p
+                        data-sv="Jag utvecklar hemsidor och applikationer för olika typer av verksamheter."
+                        data-en="I develop websites and applications for different types of businesses.">
+                        Jag utvecklar hemsidor och applikationer för olika typer av verksamheter.
+                    </p>
+
+                </div>
+
+
+                <div class="about-slide">
+
+                    <span class="slide-number">
+                        02
+                    </span>
+
+                    <p
+                        data-sv="Jag bygger projekt inom bland annat träning och coaching, restaurang och café, valutaväxling, e-handel och andra digitala tjänster."
+                        data-en="I build projects for fitness and coaching, restaurants and cafés, currency exchange, e-commerce and other digital services.">
+                        Jag bygger projekt inom bland annat träning och coaching, restaurang och café, valutaväxling, e-handel och andra digitala tjänster.
+                    </p>
+
+                </div>
+
+
+                <div class="about-slide">
+
+                    <span class="slide-number">
+                        03
+                    </span>
+
+                    <p
+                        data-sv="Varje projekt har olika behov. Därför anpassar jag design, struktur och funktion efter verksamheten och användarna."
+                        data-en="Every project has different needs. I therefore adapt design, structure and functionality to the business and its users.">
+                        Varje projekt har olika behov. Därför anpassar jag design, struktur och funktion efter verksamheten och användarna.
+                    </p>
+
+                </div>
+
+
+                <div class="slider-controls">
+
+                    <button class="slide-button active" data-slide="0">
+                        1
+                    </button>
+
+                    <button class="slide-button" data-slide="1">
+                        2
+                    </button>
+
+                    <button class="slide-button" data-slide="2">
+                        3
+                    </button>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Kontakt</h2>
-            <p>
-                GitHub: zghasemi-dev
-            </p>
+
+        <!-- TJÄNSTER -->
+        <section class="services full-section" id="services">
+
+            <div class="section-heading">
+
+                <p class="eyebrow"
+                   data-sv="DET JAG BYGGER"
+                   data-en="WHAT I BUILD">
+                    DET JAG BYGGER
+                </p>
+
+                <h2
+                    data-sv="Digitala lösningar som gör skillnad."
+                    data-en="Digital solutions that make a difference.">
+                    Digitala lösningar som gör skillnad.
+                </h2>
+
+            </div>
+
+
+            <div class="service-grid">
+
+                <article class="service-card">
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3
+                        data-sv="Responsiv design"
+                        data-en="Responsive design">
+                        Responsiv design
+                    </h3>
+
+                    <p
+                        data-sv="Moderna lösningar som fungerar på dator, surfplatta och mobil."
+                        data-en="Modern solutions that work across desktop, tablet and mobile.">
+                        Moderna lösningar som fungerar på dator, surfplatta och mobil.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3
+                        data-sv="Anpassade lösningar"
+                        data-en="Custom solutions">
+                        Anpassade lösningar
+                    </h3>
+
+                    <p
+                        data-sv="Varje projekt byggs utifrån verksamhetens behov, mål och användare."
+                        data-en="Each project is built around the business, its goals and its users.">
+                        Varje projekt byggs utifrån verksamhetens behov, mål och användare.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3
+                        data-sv="Webb & applikationer"
+                        data-en="Web & applications">
+                        Webb & applikationer
+                    </h3>
+
+                    <p
+                        data-sv="Från enklare webbsidor till mer funktionella digitala system."
+                        data-en="From simple websites to more functional digital systems.">
+                        Från enklare webbsidor till mer funktionella digitala system.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3
+                        data-sv="Tydlig struktur"
+                        data-en="Clear structure">
+                        Tydlig struktur
+                    </h3>
+
+                    <p
+                        data-sv="Fokus på enkel navigation, tydlig design och en bra användarupplevelse."
+                        data-en="Focused on simple navigation, clear design and a strong user experience.">
+                        Fokus på enkel navigation, tydlig design och en bra användarupplevelse.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJEKT -->
+        <section class="projects full-section" id="projects">
+
+            <div class="section-heading">
+
+                <p class="eyebrow"
+                   data-sv="PROJEKT"
+                   data-en="PROJECTS">
+                    PROJEKT
+                </p>
+
+                <h2
+                    data-sv="Exempel på projekt jag har byggt."
+                    data-en="Examples of projects I have built.">
+                    Exempel på projekt jag har byggt.
+                </h2>
+
+            </div>
+
+
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-photo fitness-photo">
+                        <span>
+                            FITNESS
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category"
+                           data-sv="PERSONLIG TRÄNARE"
+                           data-en="PERSONAL TRAINER">
+                            PERSONLIG TRÄNARE
+                        </p>
+
+                        <h3
+                            data-sv="Träningsplattform"
+                            data-en="Fitness platform">
+                            Träningsplattform
+                        </h3>
+
+                        <p
+                            data-sv="Digital plattform för träningsprogram, kostplaner och kundhantering."
+                            data-en="Digital platform for workout plans, nutrition plans and client management.">
+                            Digital plattform för träningsprogram, kostplaner och kundhantering.
+                        </p>
+
+                        <button class="project-button"
+                                data-sv="Se projekt →"
+                                data-en="View project →">
+                            Se projekt →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-photo cafe-photo">
+                        <span>
+                            CAFÉ
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category"
+                           data-sv="RESTAURANG & CAFÉ"
+                           data-en="RESTAURANT & CAFÉ">
+                            RESTAURANG & CAFÉ
+                        </p>
+
+                        <h3
+                            data-sv="Café & Restaurang"
+                            data-en="Café & Restaurant">
+                            Café & Restaurang
+                        </h3>
+
+                        <p
+                            data-sv="Webbsida med meny, öppettider, presentation, galleri och kontakt."
+                            data-en="Website with menu, opening hours, presentation, gallery and contact information.">
+                            Webbsida med meny, öppettider, presentation, galleri och kontakt.
+                        </p>
+
+                        <button class="project-button"
+                                data-sv="Se projekt →"
+                                data-en="View project →">
+                            Se projekt →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-photo exchange-photo">
+                        <span>
+                            EXCHANGE
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category"
+                           data-sv="VALUTAVÄXLING"
+                           data-en="CURRENCY EXCHANGE">
+                            VALUTAVÄXLING
+                        </p>
+
+                        <h3
+                            data-sv="Exchange-system"
+                            data-en="Exchange system">
+                            Exchange-system
+                        </h3>
+
+                        <p
+                            data-sv="Digital lösning för valutakurser, beräkningar och kundhantering."
+                            data-en="Digital solution for exchange rates, calculations and customer management.">
+                            Digital lösning för valutakurser, beräkningar och kundhantering.
+                        </p>
+
+                        <button class="project-button"
+                                data-sv="Se projekt →"
+                                data-en="View project →">
+                            Se projekt →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-photo shop-photo">
+                        <span>
+                            SHOP
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category"
+                           data-sv="E-HANDEL"
+                           data-en="E-COMMERCE">
+                            E-HANDEL
+                        </p>
+
+                        <h3>
+                            Online Shop
+                        </h3>
+
+                        <p
+                            data-sv="Webbutik med produkter, kategorier, kundvagn och tydlig produktpresentation."
+                            data-en="Online store with products, categories, shopping cart and clear product presentation.">
+                            Webbutik med produkter, kategorier, kundvagn och tydlig produktpresentation.
+                        </p>
+
+                        <button class="project-button"
+                                data-sv="Se projekt →"
+                                data-en="View project →">
+                            Se projekt →
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <button class="more-projects"
+                    data-sv="Visa fler projekt +"
+                    data-en="Show more projects +">
+                Visa fler projekt +
+            </button>
+
+        </section>
+
+
+        <!-- KONTAKT -->
+        <section class="contact full-section" id="contact">
+
+            <div class="contact-intro">
+
+                <p class="eyebrow"
+                   data-sv="KONTAKT"
+                   data-en="CONTACT">
+                    KONTAKT
+                </p>
+
+                <h2
+                    data-sv="Har du en idé eller ett projekt du behöver hjälp med?"
+                    data-en="Do you have an idea or a project you need help with?">
+                    Har du en idé eller ett projekt du behöver hjälp med?
+                </h2>
+
+                <p
+                    data-sv="Kontakta mig för att diskutera en digital lösning som passar din verksamhet."
+                    data-en="Contact me to discuss a digital solution that fits your business.">
+                    Kontakta mig för att diskutera en digital lösning som passar din verksamhet.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <a href="#" class="contact-card">
+
+                    <span data-sv="Telefon" data-en="Phone">
+                        Telefon
+                    </span>
+
+                    <strong>
+                        +46 XX XXX XX XX
+                    </strong>
+
+                </a>
+
+
+                <a href="#" class="contact-card">
+
+                    <span data-sv="Chatt" data-en="Chat">
+                        Chatt
+                    </span>
+
+                    <strong
+                        data-sv="Starta en konversation"
+                        data-en="Start a conversation">
+                        Starta en konversation
+                    </strong>
+
+                </a>
+
+
+                <a href="https://github.com/zghasemi-dev"
+                   target="_blank"
+                   class="contact-card">
+
+                    <span>
+                        GitHub
+                    </span>
+
+                    <strong>
+                        zghasemi-dev
+                    </strong>
+
+                </a>
+
+
+                <a href="#" class="contact-card">
+
+                    <span>
+                        Instagram
+                    </span>
+
+                    <strong>
+                        @yourusername
+                    </strong>
+
+                </a>
+
+            </div>
+
+
+            <div class="consultation-box">
+
+                <div>
+
+                    <h3
+                        data-sv="Vill du komma vidare med din idé?"
+                        data-en="Ready to move forward with your idea?">
+                        Vill du komma vidare med din idé?
+                    </h3>
+
+                    <p
+                        data-sv="Boka en kostnadsfri konsultation på 30 minuter."
+                        data-en="Book a free 30-minute consultation.">
+                        Boka en kostnadsfri konsultation på 30 minuter.
+                    </p>
+
+                </div>
+
+                <button class="consultation-button"
+                        data-sv="Boka 30 min gratis"
+                        data-en="Book 30 min free">
+                    Boka 30 min gratis
+                </button>
+
+            </div>
+
         </section>
 
     </main>
 
+
     <footer>
-        <p>Zeynab Ghasemi | Portfolio</p>
+
+        <p>
+            © 2026 Zeynab Ghasemi
+        </p>
+
+        <p>
+            Web • App • Software Development
+        </p>
+
     </footer>
+
 
     <script src="script.js"></script>
 
